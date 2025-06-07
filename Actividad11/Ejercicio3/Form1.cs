@@ -43,7 +43,7 @@ namespace Ejercicio3
         }
         int Ordenar()
         {
-            int idx = -1;
+            int id = -1;
             for (int pivote = 0; pivote < contador - 1; pivote++)
             {
                 for (int comp = pivote + 1; comp < contador; comp++)
@@ -55,7 +55,7 @@ namespace Ejercicio3
                 }
             }
 
-            return idx;
+            return id;
         }
         void Intercambiar(double[] valores, int a, int b)
         {
